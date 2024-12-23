@@ -4,11 +4,7 @@
 ## Bagian 1: Pemrograman Client-side (Bobot: 30%)
 
 ### 1. Manipulasi DOM dengan JavaScript (15%)
-Pada bagian ini, saya membuat form input dengan minimal empat elemen, yaitu:
-- Input teks untuk nama
-- Input email
-- Radio button untuk jenis kelamin
-- Checkbox untuk hobi
+Pada bagian ini, saya membuat form input dengan minimal empat elemen
 
 Data dari form ini kemudian ditampilkan dalam tabel HTML menggunakan manipulasi DOM dengan JavaScript. Setiap data yang dimasukkan pengguna akan diolah dan langsung ditampilkan pada tabel tanpa perlu memuat ulang halaman.
 
@@ -41,7 +37,7 @@ Kelas ini digunakan untuk memisahkan logika bisnis dari logika presentasi, sehin
 ## Bagian 3: Manajemen Basis Data (Bobot: 20%)
 
 ### 1. Pembuatan Tabel Database (5%)
-Saya mendesain tabel database dengan struktur yang mendukung data yang diperlukan, seperti nama, email, jenis kelamin, hobi, tipe browser, dan alamat IP pengguna.
+Saya mendesain tabel database dengan struktur yang mendukung data yang diperlukan
 
 ### 2. Konfigurasi Koneksi Database (5%)
 Koneksi ke database dikonfigurasi menggunakan file `db.php` untuk menyimpan detail koneksi, seperti hostname, username, password, dan nama database. File ini diimpor di setiap file PHP yang membutuhkan akses ke database.
@@ -57,41 +53,10 @@ Fungsi untuk menambah, mengubah, dan menghapus data diimplementasikan menggunaka
 ## Bagian 4: Manajemen State (Bobot: 20%)
 
 ### 1. Manajemen Session (10%)
-Saya menggunakan fungsi `session_start()` untuk menginisialisasi sesi di PHP. Informasi pengguna, seperti nama dan email, disimpan dalam variabel sesi untuk menjaga state pengguna selama sesi berlangsung.
+Saya menggunakan fungsi `session_start()` untuk menginisialisasi sesi di PHP. Informasi pengguna disimpan dalam variabel sesi untuk menjaga state pengguna selama sesi berlangsung.
 
 ### 2. Manajemen State dengan Cookies dan Browser Storage (10%)
 - **Cookies:** Saya membuat fungsi untuk membuat, mengambil, dan menghapus cookies, yang digunakan untuk menyimpan data pengguna secara sementara.
 - **Browser Storage:** Saya menggunakan local storage untuk menyimpan data yang tidak sensitif secara lokal di browser pengguna.
 
----
 
-## Bagian Bonus: Hosting Aplikasi Web (Bobot: 20%)
-
-### 1. Langkah Hosting (5%)
-Saya meng-host aplikasi web ini dengan mengikuti langkah-langkah berikut:
-1. Menyiapkan server lokal untuk pengembangan.
-2. Membuat akun pada penyedia hosting.
-3. Mengunggah file aplikasi ke server menggunakan FTP.
-4. Mengkonfigurasi domain dan database pada hosting.
-
-### 2. Memilih Provider Hosting (5%)
-Saya memilih penyedia hosting yang menawarkan:
-- Harga terjangkau.
-- Dukungan PHP dan MySQL.
-- Dokumentasi dan dukungan teknis yang baik.
-
-### 3. Keamanan Aplikasi (5%)
-Saya memastikan keamanan aplikasi dengan:
-- Menggunakan HTTPS untuk komunikasi data.
-- Membersihkan input pengguna untuk mencegah SQL Injection.
-- Mengimplementasikan validasi server-side.
-
-### 4. Konfigurasi Server (5%)
-Konfigurasi server mencakup:
-- Pengaturan file `.htaccess` untuk mengatur URL rewriting.
-- Membatasi izin file dan folder untuk keamanan.
-- Menyesuaikan konfigurasi PHP, seperti ukuran upload file maksimal.
-
----
-
-Dokumentasi ini dibuat untuk menjelaskan setiap langkah dan bagian dari aplikasi web yang telah dikembangkan, sesuai dengan kriteria penilaian UAS Pemrograman Web 2024/2025.
