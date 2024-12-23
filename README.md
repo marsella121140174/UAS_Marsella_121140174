@@ -1,4 +1,5 @@
-# Penjelasan Kriteria Penilaian
+# UAS PEMROGRAMAN WEB
+# Tema : E-Commerce
 
 ## Bagian 1: Pemrograman Client-side (Bobot: 30%)
 
